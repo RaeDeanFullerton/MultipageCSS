@@ -1,0 +1,63 @@
+button {
+    background-image: url(https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png);
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-color: red;
+    background-repeat: no-repeat;
+}
+header {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    
+}
+    
+
+ul li {
+    float: left;
+    list-style: none;
+    display: inline-block;
+
+    
+}
+
+#logo {
+    background-color: red;
+    color: white;
+    position: fixed;
+    float: left;
+    left: 0;
+    top: 0;
+    padding: 16px;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-left: 40px;
+    
+}
+
+
+
+
+    
+   /** background-color: red;
+    display: inline-block;
+    position: fixed;
+    padding: 16px;
+    text-align: center;
+    color: white;*//
+   
+}
+
+
+
+

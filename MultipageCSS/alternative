@@ -1,0 +1,11 @@
+ <ul>
+            <p id="logo">Logo</p>
+            <li><a href="#" class="current">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Me</a></Li>
+            <form class="search" action="https:www.google.com/images">
+                <input type="search" name="question"></input>   
+                <button type="submit"></button>
+            </form>
+        </ul>
