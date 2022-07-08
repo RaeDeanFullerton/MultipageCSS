@@ -1,11 +1,16 @@
- <ul>
-            <p id="logo">Logo</p>
-            <li><a href="#" class="current">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About Me</a></Li>
-            <form class="search" action="https:www.google.com/images">
-                <input type="search" name="question"></input>   
-                <button type="submit"></button>
-            </form>
-        </ul>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MultipageCSS</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+    </head>
+    <body>
+        <header>
+            
+        </header>
+    </body>
+
+ </html>

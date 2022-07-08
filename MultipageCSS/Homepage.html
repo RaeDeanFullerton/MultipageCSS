@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
+        <header>
         <ul> 
             <li id="logo">Logo</li>
             <li>
@@ -24,11 +24,39 @@
                 <a href="AboutMe">About Me</a>
              </li>
         </ul>
+            <div class="container">
+                <form>
+                    <input type="text"/>
+                    <button type="submit"></button>
+                </form>
+            </div>
+            <div class="cart">
+                Sign in/Dealer Locater
+                <br>
+                Your cart <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO0AAADVCAMAAACMuod9AAAAeFBMVEX+/v4AAAD////x8fHp6emJiYmSkpL4+PiBgYGcnJxJSUlvb299fX0MDAw0NDSZmZna2tq5ublXV1fAwMDPz8+lpaU6OjqwsLDNzc1xcXEnJyfg4OCtra3u7u5+fn4yMjIbGxtERERhYWEVFRVmZmYiIiJPT08YGBiVKKPQAAAIxUlEQVR4nO1daWMaOwxcFAihkOYkFHKVXP3///Cl7Wur2ZVlQXzFeL6ysDuLbFkaWe66hoaGhoaGhobIID9yP2I40HS1mGtYz8bV8KVvIz9mldClawPZ0eisCrZE301sR7c10KUrG9nRpAq2Z0a2m4NiW4Up04WV7bIGtlMr28sK2HZ0Z6V7VAXdYyPbqxrYdnS+fj11gLNdVMFWiwrOGdvnOth2CuFXRve8GroO0ANjO6ueLV9Yfqme7RGfp6bV071kbC+qZ7tkbNfVs73lplxJBsMJos1B+aATxraOfI0CSNJtq2cLIWEVcZAGejooH8QD4Hn1bMeM7WlXPd1HRve6erYTxvbYIJFlQiC2XDu5mR4Vii4MX6LRp8D2IghfeslNxIh5CLq0yk3DiuMQbO9zszDjPgTdm9wsrFiFYGtNsGdHiCDNqN8XgBBp0c/igwIt9Widm4YNN2E8rlnlzYtxmOXUp/BB2zBk3+l+Yb86P3bj7I1dOJEvYdrS5ky8hOfCLrW78fBsESwjSjNOQotEeP55LF/CvPebfAWXFi+0u/G/NlxCFO6vldeAcCTr25ytLC3BNPHNfTe42Wu4ZDcWkSnjA16LXJhiYDsz3oyHKyELumjhZfH7urH3AQxsuY7qltowHRoysw9Go5TXUMeue9qXLZPaviv34ga/CanaoLSp5OJ4FutmX7ZMjdHeLDfkEMEe+2nuWpTyGpBAxfftZQsW6q5tiWfIPWnzQWHLfaUoLfjZ8rHvjmrAkB/Dyo8gbSqzPbwVsTbSz5aHXG51AkSMsIbcYXmNu8TT73D9bHlmyBnVxDTknltw+yC/w/Wz5XW1TncL7+QxdFIf/rQ3N1seQJzsx5b7dqe7hekwuLBslDapY+WCosP1s2U8nKtUfJzwxdPwMt0+iJMRDczPlq1Sne42riH3ZlvFDfKpUlqG+NjCv+b0dXENuecGvzt9EDhcKb/rZcvv40qr4douxi4AW3kNmIB0FX31sOWVHi53Cxr61xgyK0ibzlym1+F62VrcLSxko5Sbwkt3lnjCoktyuF62PFfvcLeYKAuVj8JbQGLEJbnAJCM5XC9bns51uFswZDnU+jB65TUuPP+76FL6HNgKYEb66LoHzwpGqpuGN7qmqYyOzbkb4aIO2A4/x7cl3wOqL6MYcs83FINIhoxDrhhE2wBQpLQZyZDLlDbjVZpCRrEQRNxNSfPc5AaIZsjdDnscUyHmth3IwxSBqNuCiyuviWjI3Q47z9PAnSALwrYwU76Ly7Zjq9jR/GEh4IHrM08nA7C00+tk8CnPwKyHXz45AbcQovhNo8vjsZUcoPDl9HL4sa7N8+XaVPp1nhuJvZkf1Bf5ZrAGGUa4enzLhTuxrh/myRCVfhosuza5iDJMKXvYMjJSdINxWPQdOxBIy0URPPs5TPWqbCE/IiXfwSnE70oBRRFyuhekjYE16mx5nkeqZICgM7Yhm6RNXbbS2XpyeLhnNMHWM/rB7icrtGqOVGfL85pCfham7BTtVfzlNbrcrLPVxW6CzUkp9tn5pU1d29DZ8gz9cMZHQ06xjx9DemnowBWDiUxny5K4p8NJAQxZLlAKDX95DXe4g8Gls1XdbXpDtkibqsPV2IJVvAzZQkySpiEFDJ5nyQepDldly1dqQ3ebwZBRPJdFS60sU2Wr16iApppq57O3cwCEDn2Hq7JV5dAchtx7Jimfqzpcla3qbsE9DUd1JGA9ixBQq7V7KlvOZzDgoUAt3RZ+kDaFpTlMrf1ZW2XLf3jw14JSka5FkLdzgOZwVbbss8EQgT8+Yb8Cb/cazeEqbHV3y4XdpD35fJ0DYNbu2ZzGVqvTz2XIPaOSdsxwU7+3Z+G4ixmk+PgbTNr8CcLQzXI2AM9MnvQ+Y2P68ddXz/4AvrbofW3J1zRJm0vaG5pGQtqmbZk7ByTupJm5c0Dinm25y2uiSnsC3bzSZuLWT5nLa+JnkpFtXmlT2bkZhW136n+meEjdNjRreU1ckVpim7FzgLjzJi7bI/9TxcH2KkPPUNqyJ7i4H6fCUZb+qKDkqZ0DAiMD167fOSDPQ6QDcR9Uw8EcKqC8poaDOVQYymsqwqE1pDV2DqgDIG5VcjCHG9bOAZUAymsOqyl6O5ijKhyaDzrkgzkqD4SwvGaSCsc54vmuV+WSEJss/g6kzaTI0W/edHpuFLg7bkRkm0/azBGGQBVMUuQ4ozaftJkj6MonbWZZl8OOmZRILOH+zzaT2JdeHflNN4sg9JIreUC3yeW+QKds7EeXKPkJKlnjrZThT2aqDQ0NVSDMdPIpJqWfHun6bja7+zb+wKO+f3V8tTybrc6nJRMmWm3/LANeJ+P9nvSd6uRvZf3bKtAZZcHxzhXrxl726UlB0wX8yM9OEuGf9cOg6eWoj7udn1RIAN1kiXl00FhKQu56BIjc2ClxbaMfdP9Des4dq6dd+ZDC6JKzanmXnr/u7nNlGbOSXbZnu7HxDyDM2U6BgFvAEPYDBbSEfEl1SupGEqsCqFeLpq5LdkNPP1r7Luol/Ikr7BV4uqgZawNhm/oAcTuj7QIonxrCNua0sf8TpRQA+Bp52nyuT3soxef6VAPbwPVJpMl3FDjga0mrHX7GfsVzrGMpdUo+tq82tp7cdISDGPaCTyKx9bCmhf4rxViy5/hJW4MKXzPQYmYpcq5vf8E24qC8TkDkdpV2eIacLS7wlDbE64S9K/S/xXoYCA1zHwzlhAWkLvqs04v+zkpZSnX6OuiHcmJh71e27l8JfDTbx6A8qL3eR/Fkz+ZXlgJuJ7RLYgq2KwBy1L8pcK2ntjulWOAwPIZSVhZ/IdPd7pZyIDk0KGWJzEDjYdpxvutwI2m+K7LYG5tXv+N0n4oQGvdyXJdlZVf/gmi6/NeQ6XG5X+KM6JzFB0/XJeVWEUR0u5qs5/PJ3e3+YuT7F6+XD/P5+vgqz3ZqO4JUv7QamoaGhoaGhoaGhoaGhoaGhoaGhoaGhobw+A9d5obPV1rlFQAAAABJRU5ErkJggg==" alt="shopping cart">
+             </div>
+            </header>
+        <h1>
+            How I feel about coding so far
+        </h1>
+            <div class="heading1">
+                I am the dog at this point.
+            </div>
+            <div class="heading2">
+                But, at the same time, I feel like Rocky in his famous montage.
+            </div>
+            
+                <img style = "height:400px;margin-left: 100px;"src = "https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/states-of-a-programmer.png"/>
+            
+            <div class="footer">
+                <ul class="info">
+                    <span>Author:RaeDean Fullerton</span>
+                    <span>2022</span>
+                    <span>TechTalentSouth</span>
+                </ul>
+            </div>
 
-    </header
-        
-   
-    
-    
-</body>
+            
+            
+    </body>
 </html>
