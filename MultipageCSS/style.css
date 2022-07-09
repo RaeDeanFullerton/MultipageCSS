@@ -39,6 +39,7 @@ ul li {
     left: 0;
     top: 0;
     padding: 16px;
+  
 
 }
 
@@ -75,6 +76,8 @@ input {
     
 img {
     height: 20px;
+    position: fixed;
+    display: flexbox
 }
 .footer {
     background-color: black;
@@ -131,6 +134,7 @@ h1 {
     color: white;
     font-weight: bolder;
     text-align: center;
+    display: flexbox;
 
 }
 .heading2 {
@@ -144,6 +148,8 @@ h1 {
     box-sizing: border-box;
     float: right;
     margin-right: 100px;
+    position:relative;
+    display: flexbox;
 
 }
 
